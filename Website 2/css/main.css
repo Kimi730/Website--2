@@ -10,6 +10,7 @@ a {
     color: #000000;
 }
 
+/*Head page*/
 .header {
     width: 100%;
     height: 150px;
@@ -99,7 +100,8 @@ a {
     color: #DDD5CB;
 }
 
-.aboutme{
+/*About me page*/
+.aboutme {
     width: 100%;
     height: 150px;
     background-color: #DDD5CB;
@@ -112,6 +114,7 @@ a {
     font-family: Righteous;
 
 }
+
 .top-container {
     background-color: transparent;
     display: flex;
@@ -123,7 +126,8 @@ a {
     position: relative;
     top: 30px;
 }
-.work-container{
+
+.work-container {
     width: 100%;
     height: 150px;
     background-color: #DDD5CB;
@@ -136,6 +140,7 @@ a {
     font-family: Righteous;
 
 }
+
 .beschrijvingcontainer {
     height: 300px;
     width: 60%;
@@ -278,6 +283,9 @@ h2 {
     position: relative;
     left: 50px;
 }
+
+/*Work page*/
+
 .container {
     display: flex;
     flex-direction: column;
@@ -291,7 +299,7 @@ h2 {
     flex-direction: row;
     width: 100%;
     height: auto;
-margin-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .foto-mastermind {
@@ -401,7 +409,7 @@ footer {
     font-family: Itim;
 }
 
-.contact-button{
+.contact-button {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -430,7 +438,9 @@ footer {
     justify-content: center;
 }
 
-.contact{
+/*Contact page*/
+
+.contact {
     width: 100%;
     height: 150px;
     background-color: #DDD5CB;
@@ -443,7 +453,8 @@ footer {
     font-family: Righteous;
     margin-bottom: 50px;
 }
-.contacten{
+
+.contacten {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -451,7 +462,8 @@ footer {
     width: 100%;
     margin-top: 53px;
 }
-.rij1{
+
+.rij1 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -459,29 +471,36 @@ footer {
     width: 100%;
     height: auto;
 }
-.rij2{
+
+.rij2 {
     text-align: center;
     width: 100%;
 }
-#tel{
+
+#tel {
     font-family: Josefin Sans;
 }
-#schoolmail{
+
+#schoolmail {
     font-family: Josefin Sans;
 }
-#email{
+
+#email {
     font-family: Josefin Sans;
     position: relative;
     left: 30px;
 }
-#plaats{
+
+#plaats {
     font-family: Josefin Sans;
 }
-#github{
-width: 150px;
-height: 150px;
+
+#github {
+    width: 150px;
+    height: 150px;
 }
-#pinterest{
-height: 125px;
-width: 125px;
+
+#pinterest {
+    height: 125px;
+    width: 125px;
 }
