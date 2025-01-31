@@ -504,3 +504,72 @@ footer {
     height: 125px;
     width: 125px;
 }
+
+@media screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .pages {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .achtergrond {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .linkerzijde, .rechterzijde {
+        width: 100%;
+        text-align: center;
+    }
+
+    #profiel {
+        width: 150px;
+        height: auto;
+    }
+
+    .hobby-name {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fitness, .eten, .java {
+        width: 100%;
+    }
+
+    #foto-fitness, #foto-eten, #foto-java {
+        width: 100%;
+        height: auto;
+    }
+
+    body {
+        font-size: 1rem; /* Instead of px */
+    }
+    
+    .header {
+        width: 100%;
+    }
+    
+    #profiel {
+        max-width: 50%;
+    }
+    button {
+        padding: 10px 20px;
+        font-size: 1.2rem;
+    }
+        
+}
+/*Javascript*/
+body {
+    opacity: 0;
+    transform: scale(0.95);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+body.loaded {
+    opacity: 1;
+    transform: scale(1);
+}
